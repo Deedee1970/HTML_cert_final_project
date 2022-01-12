@@ -1,0 +1,161 @@
+body {
+    background-color: #CCCCFF;
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#ten,
+#eleven,
+#twelve,
+#thirteen,
+#fourteen,
+#fifteen,
+#sixteen {
+
+    font-family: Arial;
+    margin: 10px;
+    padding: 15px;
+    width: 23%;
+    height: 580px;
+    background-color: #F0FFFF;
+}
+
+@media only screen and (max-width: 600px) {
+
+    #one,
+    #two,
+    #three,
+    #four,Untitled-1
+    #six,
+    #seven,
+    #eight,
+    #nine,
+    #ten,
+    #eleven,
+    #twelve,
+    #thirteen,
+    #fourteen,
+    #fifteen,
+    #sixteen {
+        float: none;
+        width: 100%;
+    }
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100%;
+    text-align: center;
+}
+
+#logo {
+    height: 150px;
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+
+}
+
+#description {
+    font-size: 2rem;
+    color: #eee;
+}
+
+.navbar-nav li {
+    margin-right: 10px;
+}
+
+header {
+    text-align: center;
+    background-color: #7393B3;
+    color: #eee;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #eee;
+}
+
+#title {
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.member {
+    color: #EE4B2B;
+    font-size: small;
+    font-weight: bold;
+}
+
+#savings {
+    color: #EE4B2B;
+}
+
+img {
+    height: 250px;
+    width: 100%;
+    padding-right: 15px;
+}
+
+footer {
+    border-top: 1px solid black;
+    font-size: .75em;
+    text-align: center;
+    width: 100%;
+    clear: both;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#sub {
+    background-color: darkblue;
+    font-weight: bold;
+}
+
+#thank_you {
+    text-align: center;
+    padding-top: 15px;
+}
+
+#options {
+    padding: 100px;
+    margin-bottom: 50px;
+    text-align: center
+}
+
+#copyright {
+    background-color: #000000;
+}
+
+/*subscribe, login, register */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #36454F;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
