@@ -1,4 +1,4 @@
-# HTML_cert_final_project
+# HTML Certification Final Project: Tighty Whities
 ### Final project for Framework Television HTML class
 #### By Denise Donohue
 
